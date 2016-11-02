@@ -212,7 +212,6 @@
 				TargetAttributes = {
 					A802F9D01DC9E5CF000053A5 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = PP25SV745R;
 						ProvisioningStyle = Automatic;
 					};
 					A802F9E91DC9E5CF000053A5 = {
@@ -429,10 +428,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PP25SV745R;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QrCodeScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tv.meidou.ios.anchor;
+				PRODUCT_BUNDLE_IDENTIFIER = caobo.QrCodeScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -441,10 +440,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = PP25SV745R;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QrCodeScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tv.meidou.ios.anchor;
+				PRODUCT_BUNDLE_IDENTIFIER = caobo.QrCodeScan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -514,6 +513,7 @@
 				A802FA001DC9E5CF000053A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A802FA011DC9E5CF000053A5 /* Build configuration list for PBXNativeTarget "QrCodeScanTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +522,7 @@
 				A802FA031DC9E5CF000053A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A802FA041DC9E5CF000053A5 /* Build configuration list for PBXNativeTarget "QrCodeScanUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +531,7 @@
 				A802FA061DC9E5CF000053A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
