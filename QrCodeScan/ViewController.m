@@ -11,7 +11,7 @@
 
 #import "AppDelegate.h"
 
-@interface ViewController ()<AVCaptureMetadataOutputObjectsDelegate,UIImagePickerControllerDelegate>
+@interface ViewController ()<AVCaptureMetadataOutputObjectsDelegate>
 {
     AVCaptureSession * _session;//输入输出的中间桥梁
 
@@ -74,7 +74,6 @@
 #pragma mark-> 获取扫描区域的比例关系
 -(CGRect)getScanCrop:(CGRect)rect readerViewBounds:(CGRect)readerViewBounds
 {
-    
     CGFloat x,y,width,height;
     
     x = (CGRectGetHeight(readerViewBounds)-CGRectGetHeight(rect))/2/CGRectGetHeight(readerViewBounds);
@@ -83,10 +82,10 @@
     height = CGRectGetWidth(rect)/CGRectGetWidth(readerViewBounds);
     
     return CGRectMake(x, y, width, height);
-    
 }
 
 - (IBAction)startScan:(id)sender {
     [_session startRunning];
 }
+
 @end
