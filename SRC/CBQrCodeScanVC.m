@@ -158,7 +158,7 @@
 -(void)openAlbum:(UIButton *)sender{
     ABImagePicker * picker = [ABImagePicker shared];
     [picker startWithVC:self];
-    [picker setPickerCompletion:^(NSError *error, UIImage *image) {
+    [picker setPickerCompletion:^(ABImagePicker * picker, NSError *error, UIImage *image) {
         if (!error) {
             //图片可用
             CIDetector * detector = [CIDetector detectorOfType:CIDetectorTypeQRCode context:nil options:@{CIDetectorAccuracy:CIDetectorAccuracyHigh}];
