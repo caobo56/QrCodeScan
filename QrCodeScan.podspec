@@ -90,10 +90,9 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  s.source       = { :git => "https://github.com/caobo56/CBImagePicker.git", :tag => "0.9.2" }
   s.source_files  = "SRC", "SRC/*.{h,m}"
   s.resources = "SRC/image/*.png"
-
+  s.framework  = "AVFoundation"
   # s.public_header_files = "Classes/**/*.h"
 
 

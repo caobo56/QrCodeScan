@@ -25,6 +25,7 @@
 		A8EA6469201EC65C00512586 /* line@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA6463201EC65C00512586 /* line@3x.png */; };
 		A8EA646A201EC65C00512586 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA6464201EC65C00512586 /* line.png */; };
 		A8EA646C201EC6A400512586 /* QrCodeScan.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A8EA646B201EC6A400512586 /* QrCodeScan.podspec */; };
+		A8EA646E201EC88A00512586 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EA646D201EC88A00512586 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		A8EA6463201EC65C00512586 /* line@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@3x.png"; sourceTree = "<group>"; };
 		A8EA6464201EC65C00512586 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
 		A8EA646B201EC6A400512586 /* QrCodeScan.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QrCodeScan.podspec; sourceTree = SOURCE_ROOT; };
+		A8EA646D201EC88A00512586 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C87675FFBAFF59447844FEE8 /* libPods-QrCodeScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QrCodeScan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E4AF430A3EE3A4D3570830 /* Pods-QrCodeScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QrCodeScan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QrCodeScan/Pods-QrCodeScan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8EA646E201EC88A00512586 /* AVFoundation.framework in Frameworks */,
 				204F622B24F015D1CA94C389 /* libPods-QrCodeScan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +200,7 @@
 		CB6E6209B1ACC23BD61633A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8EA646D201EC88A00512586 /* AVFoundation.framework */,
 				C87675FFBAFF59447844FEE8 /* libPods-QrCodeScan.a */,
 			);
 			name = Frameworks;
