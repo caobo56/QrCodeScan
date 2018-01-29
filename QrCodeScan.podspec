@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "QrCodeScan"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "caobo's QrCodeScan."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/caobo56/QrCodeScan.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/caobo56/QrCodeScan.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,6 +93,7 @@ Pod::Spec.new do |s|
   s.source_files  = "SRC", "SRC/*.{h,m}"
   s.resources = "SRC/image/*.png"
   s.framework  = "AVFoundation"
+  s.dependency 'ImagePicker'
   # s.public_header_files = "Classes/**/*.h"
 
 

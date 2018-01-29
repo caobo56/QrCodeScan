@@ -8,7 +8,7 @@
 
 #import "CBQrCodeScanVC.h"
 #import <AVFoundation/AVFoundation.h>
-#import <ABImagePicker.h>
+#import "ABImagePicker.h"
 
 /**
  *  屏幕 高 宽 边界
