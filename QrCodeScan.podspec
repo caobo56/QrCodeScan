@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "QrCodeScan"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "caobo's QrCodeScan."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/caobo56/QrCodeScan.git", :tag => "1.0.2" }
+  s.source       = { :git => "https://github.com/caobo56/QrCodeScan.git", :tag => "1.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

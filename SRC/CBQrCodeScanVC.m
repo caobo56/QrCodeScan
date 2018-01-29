@@ -71,7 +71,7 @@
 -(void)configView{
     
     UIImageView * imageView = [[UIImageView alloc]initWithFrame:kScanRect];
-    imageView.image = [UIImage imageNamed:@"pick_bg"];
+    imageView.image = [UIImage imageNamed:@"qr_pick_bg"];
     [self.view addSubview:imageView];
     
     UILabel * titleLable = [[UILabel alloc]init];
@@ -110,9 +110,18 @@
     upOrdown = NO;
     num =0;
     _line = [[UIImageView alloc] initWithFrame:CGRectMake(LEFT, TOP+10, 220, 2)];
-    _line.image = [UIImage imageNamed:@"line.png"];
+    _line.image = [UIImage imageNamed:@"qr_line.png"];
     [self.view addSubview:_line];
     
+    if (!self.navigationController) {
+        UIButton * closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        UIImage * closeImg = [UIImage imageNamed:@"qr_close"];
+        [closeBtn setFrame:CGRectMake(30, 20, 44, 44)];
+        [closeBtn setImage:closeImg forState:UIControlStateNormal];
+        [closeBtn addTarget:self action:@selector(closeBtnAction:) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:closeBtn];
+    }
+
     timer = [NSTimer scheduledTimerWithTimeInterval:.02 target:self selector:@selector(animationUpDown) userInfo:nil repeats:YES];
     
 
@@ -177,6 +186,10 @@
             //error 中会有错误的说明
         }
     }];
+}
+
+-(void)closeBtnAction:(id)sender{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 -(void)animationUpDown
