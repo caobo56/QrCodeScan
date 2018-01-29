@@ -89,13 +89,14 @@ static ABImagePicker *imagePicker = nil;
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
+    __weak typeof(self) weakSelf = self;
     [picker dismissViewControllerAnimated:YES completion:^()
      {
          UIImage* image = info[UIImagePickerControllerEditedImage];
-//         if (image.size.height/image.size.width !=1  )
-//         {
-//             image = [weakSelf imageScaleAspectFit:image toSize:CGSizeMake(kScaleHeadImageHeights, kScaleHeadImageHeights)];
-//         }
+         if (image.size.height/image.size.width !=1  )
+         {
+             image = [weakSelf imageScaleAspectFit:image toSize:CGSizeMake(kScaleHeadImageHeights, kScaleHeadImageHeights)];
+         }
          _comp(nil,image);
      }];
 }

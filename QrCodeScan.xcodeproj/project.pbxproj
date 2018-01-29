@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		204F622B24F015D1CA94C389 /* libPods-QrCodeScan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C87675FFBAFF59447844FEE8 /* libPods-QrCodeScan.a */; };
 		A802F9D61DC9E5CF000053A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A802F9D51DC9E5CF000053A5 /* main.m */; };
 		A802F9D91DC9E5CF000053A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A802F9D81DC9E5CF000053A5 /* AppDelegate.m */; };
 		A802F9DC1DC9E5CF000053A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A802F9DB1DC9E5CF000053A5 /* ViewController.m */; };
-		A802F9DF1DC9E5CF000053A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A802F9DD1DC9E5CF000053A5 /* Main.storyboard */; };
 		A802F9E11DC9E5CF000053A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A802F9E01DC9E5CF000053A5 /* Assets.xcassets */; };
 		A802F9E41DC9E5CF000053A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A802F9E21DC9E5CF000053A5 /* LaunchScreen.storyboard */; };
 		A802F9EF1DC9E5CF000053A5 /* QrCodeScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A802F9EE1DC9E5CF000053A5 /* QrCodeScanTests.m */; };
 		A802F9FA1DC9E5CF000053A5 /* QrCodeScanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A802F9F91DC9E5CF000053A5 /* QrCodeScanUITests.m */; };
 		A802FA091DC9EBAB000053A5 /* UIView+IB.m in Sources */ = {isa = PBXBuildFile; fileRef = A802FA081DC9EBAB000053A5 /* UIView+IB.m */; };
+		A8EA645B201EC56500512586 /* CBQrCodeScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EA645A201EC56500512586 /* CBQrCodeScanVC.m */; };
+		A8EA645D201EC58E00512586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EA645C201EC58E00512586 /* Main.storyboard */; };
+		A8EA6465201EC65C00512586 /* pick_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA645F201EC65C00512586 /* pick_bg@3x.png */; };
+		A8EA6466201EC65C00512586 /* pick_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA6460201EC65C00512586 /* pick_bg.png */; };
+		A8EA6467201EC65C00512586 /* pick_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA6461201EC65C00512586 /* pick_bg@2x.png */; };
+		A8EA6468201EC65C00512586 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA6462201EC65C00512586 /* line@2x.png */; };
+		A8EA6469201EC65C00512586 /* line@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA6463201EC65C00512586 /* line@3x.png */; };
+		A8EA646A201EC65C00512586 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA6464201EC65C00512586 /* line.png */; };
+		A8EA646C201EC6A400512586 /* QrCodeScan.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A8EA646B201EC6A400512586 /* QrCodeScan.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43B7270C7BFE9BB619D7105D /* Pods-QrCodeScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QrCodeScan.release.xcconfig"; path = "Pods/Target Support Files/Pods-QrCodeScan/Pods-QrCodeScan.release.xcconfig"; sourceTree = "<group>"; };
 		A802F9D11DC9E5CF000053A5 /* QrCodeScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QrCodeScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A802F9D51DC9E5CF000053A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A802F9D71DC9E5CF000053A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A802F9D81DC9E5CF000053A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A802F9DA1DC9E5CF000053A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A802F9DB1DC9E5CF000053A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A802F9DE1DC9E5CF000053A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A802F9E01DC9E5CF000053A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A802F9E31DC9E5CF000053A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A802F9E51DC9E5CF000053A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +63,18 @@
 		A802F9FB1DC9E5CF000053A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A802FA071DC9EBAB000053A5 /* UIView+IB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IB.h"; sourceTree = "<group>"; };
 		A802FA081DC9EBAB000053A5 /* UIView+IB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IB.m"; sourceTree = "<group>"; };
+		A8EA6459201EC56500512586 /* CBQrCodeScanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBQrCodeScanVC.h; sourceTree = "<group>"; };
+		A8EA645A201EC56500512586 /* CBQrCodeScanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBQrCodeScanVC.m; sourceTree = "<group>"; };
+		A8EA645C201EC58E00512586 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A8EA645F201EC65C00512586 /* pick_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick_bg@3x.png"; sourceTree = "<group>"; };
+		A8EA6460201EC65C00512586 /* pick_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pick_bg.png; sourceTree = "<group>"; };
+		A8EA6461201EC65C00512586 /* pick_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick_bg@2x.png"; sourceTree = "<group>"; };
+		A8EA6462201EC65C00512586 /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		A8EA6463201EC65C00512586 /* line@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@3x.png"; sourceTree = "<group>"; };
+		A8EA6464201EC65C00512586 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		A8EA646B201EC6A400512586 /* QrCodeScan.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QrCodeScan.podspec; sourceTree = SOURCE_ROOT; };
+		C87675FFBAFF59447844FEE8 /* libPods-QrCodeScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QrCodeScan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E4AF430A3EE3A4D3570830 /* Pods-QrCodeScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QrCodeScan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QrCodeScan/Pods-QrCodeScan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204F622B24F015D1CA94C389 /* libPods-QrCodeScan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +110,8 @@
 				A802F9ED1DC9E5CF000053A5 /* QrCodeScanTests */,
 				A802F9F81DC9E5CF000053A5 /* QrCodeScanUITests */,
 				A802F9D21DC9E5CF000053A5 /* Products */,
+				E8A14EDCACA0205F7CEDC7C7 /* Pods */,
+				CB6E6209B1ACC23BD61633A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,13 +128,15 @@
 		A802F9D31DC9E5CF000053A5 /* QrCodeScan */ = {
 			isa = PBXGroup;
 			children = (
+				A8EA646B201EC6A400512586 /* QrCodeScan.podspec */,
+				A8EA6458201EC56500512586 /* SRC */,
 				A802FA071DC9EBAB000053A5 /* UIView+IB.h */,
 				A802FA081DC9EBAB000053A5 /* UIView+IB.m */,
 				A802F9D71DC9E5CF000053A5 /* AppDelegate.h */,
 				A802F9D81DC9E5CF000053A5 /* AppDelegate.m */,
 				A802F9DA1DC9E5CF000053A5 /* ViewController.h */,
 				A802F9DB1DC9E5CF000053A5 /* ViewController.m */,
-				A802F9DD1DC9E5CF000053A5 /* Main.storyboard */,
+				A8EA645C201EC58E00512586 /* Main.storyboard */,
 				A802F9E01DC9E5CF000053A5 /* Assets.xcassets */,
 				A802F9E21DC9E5CF000053A5 /* LaunchScreen.storyboard */,
 				A802F9E51DC9E5CF000053A5 /* Info.plist */,
@@ -145,6 +171,46 @@
 			path = QrCodeScanUITests;
 			sourceTree = "<group>";
 		};
+		A8EA6458201EC56500512586 /* SRC */ = {
+			isa = PBXGroup;
+			children = (
+				A8EA645E201EC65C00512586 /* image */,
+				A8EA6459201EC56500512586 /* CBQrCodeScanVC.h */,
+				A8EA645A201EC56500512586 /* CBQrCodeScanVC.m */,
+			);
+			path = SRC;
+			sourceTree = SOURCE_ROOT;
+		};
+		A8EA645E201EC65C00512586 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				A8EA645F201EC65C00512586 /* pick_bg@3x.png */,
+				A8EA6460201EC65C00512586 /* pick_bg.png */,
+				A8EA6461201EC65C00512586 /* pick_bg@2x.png */,
+				A8EA6462201EC65C00512586 /* line@2x.png */,
+				A8EA6463201EC65C00512586 /* line@3x.png */,
+				A8EA6464201EC65C00512586 /* line.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		CB6E6209B1ACC23BD61633A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C87675FFBAFF59447844FEE8 /* libPods-QrCodeScan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8A14EDCACA0205F7CEDC7C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2E4AF430A3EE3A4D3570830 /* Pods-QrCodeScan.debug.xcconfig */,
+				43B7270C7BFE9BB619D7105D /* Pods-QrCodeScan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A802F9FE1DC9E5CF000053A5 /* Build configuration list for PBXNativeTarget "QrCodeScan" */;
 			buildPhases = (
+				67D088AC6226B6D177E7D01C /* [CP] Check Pods Manifest.lock */,
 				A802F9CD1DC9E5CF000053A5 /* Sources */,
 				A802F9CE1DC9E5CF000053A5 /* Frameworks */,
 				A802F9CF1DC9E5CF000053A5 /* Resources */,
+				B23750AA6A69CB40D4A0BACA /* [CP] Embed Pods Frameworks */,
+				2C83AFF5D9888DAD4D34B39E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -212,6 +281,7 @@
 				TargetAttributes = {
 					A802F9D01DC9E5CF000053A5 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q3SLH35FY4;
 						ProvisioningStyle = Automatic;
 					};
 					A802F9E91DC9E5CF000053A5 = {
@@ -251,9 +321,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8EA6468201EC65C00512586 /* line@2x.png in Resources */,
+				A8EA6469201EC65C00512586 /* line@3x.png in Resources */,
+				A8EA646A201EC65C00512586 /* line.png in Resources */,
+				A8EA646C201EC6A400512586 /* QrCodeScan.podspec in Resources */,
+				A8EA645D201EC58E00512586 /* Main.storyboard in Resources */,
+				A8EA6466201EC65C00512586 /* pick_bg.png in Resources */,
 				A802F9E41DC9E5CF000053A5 /* LaunchScreen.storyboard in Resources */,
 				A802F9E11DC9E5CF000053A5 /* Assets.xcassets in Resources */,
-				A802F9DF1DC9E5CF000053A5 /* Main.storyboard in Resources */,
+				A8EA6467201EC65C00512586 /* pick_bg@2x.png in Resources */,
+				A8EA6465201EC65C00512586 /* pick_bg@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +350,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C83AFF5D9888DAD4D34B39E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QrCodeScan/Pods-QrCodeScan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D088AC6226B6D177E7D01C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QrCodeScan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B23750AA6A69CB40D4A0BACA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QrCodeScan/Pods-QrCodeScan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A802F9CD1DC9E5CF000053A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,6 +409,7 @@
 				A802F9DC1DC9E5CF000053A5 /* ViewController.m in Sources */,
 				A802FA091DC9EBAB000053A5 /* UIView+IB.m in Sources */,
 				A802F9D91DC9E5CF000053A5 /* AppDelegate.m in Sources */,
+				A8EA645B201EC56500512586 /* CBQrCodeScanVC.m in Sources */,
 				A802F9D61DC9E5CF000053A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,14 +446,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A802F9DD1DC9E5CF000053A5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A802F9DE1DC9E5CF000053A5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A802F9E21DC9E5CF000053A5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -426,9 +547,10 @@
 		};
 		A802F9FF1DC9E5CF000053A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E4AF430A3EE3A4D3570830 /* Pods-QrCodeScan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Q3SLH35FY4;
 				INFOPLIST_FILE = QrCodeScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = caobo.QrCodeScan;
@@ -438,9 +560,10 @@
 		};
 		A802FA001DC9E5CF000053A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B7270C7BFE9BB619D7105D /* Pods-QrCodeScan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Q3SLH35FY4;
 				INFOPLIST_FILE = QrCodeScan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = caobo.QrCodeScan;
