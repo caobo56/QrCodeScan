@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CBQrCodeScanVC.h"
+#import <CBQrCodeScanVC.h>
 @class CBQrCodeScanVC;
 @interface ViewController ()
 

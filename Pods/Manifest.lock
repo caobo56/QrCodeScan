@@ -1,12 +1,16 @@
 PODS:
   - CBImagePicker (0.9.7)
+  - QrCodeScan (1.0.5):
+    - CBImagePicker
 
 DEPENDENCIES:
   - CBImagePicker
+  - QrCodeScan
 
 SPEC CHECKSUMS:
   CBImagePicker: f503d13e3ecac911a61284f4018e2b7b182bb45d
+  QrCodeScan: 71a0fdd46cfe5e1eec03dc81e125a64df6e34724
 
-PODFILE CHECKSUM: 45c2aefedc1e9de2bd5e0a2d8efc36896e637251
+PODFILE CHECKSUM: 8af7d849342fac1f122f88fa28439438cc34ced2
 
 COCOAPODS: 1.4.0.beta.2
