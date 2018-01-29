@@ -27,12 +27,16 @@
 
 - (IBAction)startScan:(id)sender {
     CBQrCodeScanVC * vc = [[CBQrCodeScanVC alloc]init];
-    [vc hiddenFlashBtn:YES];
-    //隐藏闪光灯按钮
-    [vc setComp:^(CBQrCodeScanVC *vc, NSError *error, NSString *content) {
+    [vc hiddenFlashBtn:NO];
+    //NO为隐藏闪光灯按钮，默认为不隐藏，不隐藏可不用调取该方法
+    [vc hiddenAlbumBtn:NO];
+    //NO为隐藏相册按钮，默认为不隐藏，不隐藏可不用调取该方法
+    [vc setComp:^(CBQrCodeScanVC *qrCodeScanVC, NSError *error, NSString *content) {
         if (!error) {
             NSLog(@"content = %@",content);
-            [vc dismissViewControllerAnimated:YES completion:nil];
+            //content 即为识别出二维码的字符串
+            [qrCodeScanVC dismissViewControllerAnimated:YES completion:nil];
+            //qrCodeScanVC 是识别二维码的VC 的 weak 引用，可以直接使用
         }else{
             
         }

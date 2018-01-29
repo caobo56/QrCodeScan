@@ -22,8 +22,21 @@ typedef void(^CBQrCodeScanCompletion)(CBQrCodeScanVC * vc,NSError* error,NSStrin
 @interface CBQrCodeScanVC : UIViewController
 
 @property (weak,nonatomic)CBQrCodeScanCompletion comp;
+//回调的block
 
+
+/**
+ 隐藏闪光灯按钮的方法，NO为隐藏闪光灯按钮，默认为不隐藏，不隐藏可不用调取该方法
+
+ @param type NO为隐藏闪光灯按钮
+ */
 -(void)hiddenFlashBtn:(BOOL)type;
+
+/**
+ 隐藏相册按钮的方法，NO为隐藏相册按钮，默认为不隐藏，不隐藏可不用调取该方法
+
+ @param type NO为隐藏相册按钮
+ */
 -(void)hiddenAlbumBtn:(BOOL)type;
 
 @end
