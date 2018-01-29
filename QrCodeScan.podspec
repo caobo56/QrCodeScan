@@ -93,7 +93,7 @@ Pod::Spec.new do |s|
   s.source_files  = "SRC", "SRC/*.{h,m}"
   s.resources = "SRC/image/*.png"
   s.framework  = "AVFoundation"
-  s.dependency 'ImagePicker'
+  s.dependency 'CBImagePicker'
   # s.public_header_files = "Classes/**/*.h"
 
 

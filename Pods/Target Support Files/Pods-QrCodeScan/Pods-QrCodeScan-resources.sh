@@ -83,6 +83,22 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/QrCodeScan/SRC/image/line.png"
+  install_resource "${PODS_ROOT}/QrCodeScan/SRC/image/line@2x.png"
+  install_resource "${PODS_ROOT}/QrCodeScan/SRC/image/line@3x.png"
+  install_resource "${PODS_ROOT}/QrCodeScan/SRC/image/pick_bg.png"
+  install_resource "${PODS_ROOT}/QrCodeScan/SRC/image/pick_bg@2x.png"
+  install_resource "${PODS_ROOT}/QrCodeScan/SRC/image/pick_bg@3x.png"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/QrCodeScan/SRC/image/line.png"
+  install_resource "${PODS_ROOT}/QrCodeScan/SRC/image/line@2x.png"
+  install_resource "${PODS_ROOT}/QrCodeScan/SRC/image/line@3x.png"
+  install_resource "${PODS_ROOT}/QrCodeScan/SRC/image/pick_bg.png"
+  install_resource "${PODS_ROOT}/QrCodeScan/SRC/image/pick_bg@2x.png"
+  install_resource "${PODS_ROOT}/QrCodeScan/SRC/image/pick_bg@3x.png"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

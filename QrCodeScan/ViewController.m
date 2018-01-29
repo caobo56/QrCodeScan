@@ -3,11 +3,11 @@
 //  LCQRcodeScan
 //
 //  Created by caobo56 on 16/6/30.
-//  Copyright © 2018年 刘通超. All rights reserved.
+//  Copyright © 2018年 caobo56. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "CBQrCodeScanVC.h"
+#import <CBQrCodeScanVC.h>
 @class CBQrCodeScanVC;
 @interface ViewController ()
 

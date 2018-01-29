@@ -16,14 +16,7 @@
 		A802F9EF1DC9E5CF000053A5 /* QrCodeScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A802F9EE1DC9E5CF000053A5 /* QrCodeScanTests.m */; };
 		A802F9FA1DC9E5CF000053A5 /* QrCodeScanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A802F9F91DC9E5CF000053A5 /* QrCodeScanUITests.m */; };
 		A802FA091DC9EBAB000053A5 /* UIView+IB.m in Sources */ = {isa = PBXBuildFile; fileRef = A802FA081DC9EBAB000053A5 /* UIView+IB.m */; };
-		A8EA645B201EC56500512586 /* CBQrCodeScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EA645A201EC56500512586 /* CBQrCodeScanVC.m */; };
 		A8EA645D201EC58E00512586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EA645C201EC58E00512586 /* Main.storyboard */; };
-		A8EA6465201EC65C00512586 /* pick_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA645F201EC65C00512586 /* pick_bg@3x.png */; };
-		A8EA6466201EC65C00512586 /* pick_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA6460201EC65C00512586 /* pick_bg.png */; };
-		A8EA6467201EC65C00512586 /* pick_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA6461201EC65C00512586 /* pick_bg@2x.png */; };
-		A8EA6468201EC65C00512586 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA6462201EC65C00512586 /* line@2x.png */; };
-		A8EA6469201EC65C00512586 /* line@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA6463201EC65C00512586 /* line@3x.png */; };
-		A8EA646A201EC65C00512586 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = A8EA6464201EC65C00512586 /* line.png */; };
 		A8EA646C201EC6A400512586 /* QrCodeScan.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A8EA646B201EC6A400512586 /* QrCodeScan.podspec */; };
 		A8EA646E201EC88A00512586 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EA646D201EC88A00512586 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
@@ -64,15 +57,7 @@
 		A802F9FB1DC9E5CF000053A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A802FA071DC9EBAB000053A5 /* UIView+IB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IB.h"; sourceTree = "<group>"; };
 		A802FA081DC9EBAB000053A5 /* UIView+IB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IB.m"; sourceTree = "<group>"; };
-		A8EA6459201EC56500512586 /* CBQrCodeScanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBQrCodeScanVC.h; sourceTree = "<group>"; };
-		A8EA645A201EC56500512586 /* CBQrCodeScanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBQrCodeScanVC.m; sourceTree = "<group>"; };
 		A8EA645C201EC58E00512586 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		A8EA645F201EC65C00512586 /* pick_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick_bg@3x.png"; sourceTree = "<group>"; };
-		A8EA6460201EC65C00512586 /* pick_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pick_bg.png; sourceTree = "<group>"; };
-		A8EA6461201EC65C00512586 /* pick_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick_bg@2x.png"; sourceTree = "<group>"; };
-		A8EA6462201EC65C00512586 /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
-		A8EA6463201EC65C00512586 /* line@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@3x.png"; sourceTree = "<group>"; };
-		A8EA6464201EC65C00512586 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
 		A8EA646B201EC6A400512586 /* QrCodeScan.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QrCodeScan.podspec; sourceTree = SOURCE_ROOT; };
 		A8EA646D201EC88A00512586 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C87675FFBAFF59447844FEE8 /* libPods-QrCodeScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QrCodeScan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				A8EA646B201EC6A400512586 /* QrCodeScan.podspec */,
-				A8EA6458201EC56500512586 /* SRC */,
 				A802FA071DC9EBAB000053A5 /* UIView+IB.h */,
 				A802FA081DC9EBAB000053A5 /* UIView+IB.m */,
 				A802F9D71DC9E5CF000053A5 /* AppDelegate.h */,
@@ -172,29 +156,6 @@
 				A802F9FB1DC9E5CF000053A5 /* Info.plist */,
 			);
 			path = QrCodeScanUITests;
-			sourceTree = "<group>";
-		};
-		A8EA6458201EC56500512586 /* SRC */ = {
-			isa = PBXGroup;
-			children = (
-				A8EA645E201EC65C00512586 /* image */,
-				A8EA6459201EC56500512586 /* CBQrCodeScanVC.h */,
-				A8EA645A201EC56500512586 /* CBQrCodeScanVC.m */,
-			);
-			path = SRC;
-			sourceTree = SOURCE_ROOT;
-		};
-		A8EA645E201EC65C00512586 /* image */ = {
-			isa = PBXGroup;
-			children = (
-				A8EA645F201EC65C00512586 /* pick_bg@3x.png */,
-				A8EA6460201EC65C00512586 /* pick_bg.png */,
-				A8EA6461201EC65C00512586 /* pick_bg@2x.png */,
-				A8EA6462201EC65C00512586 /* line@2x.png */,
-				A8EA6463201EC65C00512586 /* line@3x.png */,
-				A8EA6464201EC65C00512586 /* line.png */,
-			);
-			path = image;
 			sourceTree = "<group>";
 		};
 		CB6E6209B1ACC23BD61633A2 /* Frameworks */ = {
@@ -325,16 +286,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8EA6468201EC65C00512586 /* line@2x.png in Resources */,
-				A8EA6469201EC65C00512586 /* line@3x.png in Resources */,
-				A8EA646A201EC65C00512586 /* line.png in Resources */,
 				A8EA646C201EC6A400512586 /* QrCodeScan.podspec in Resources */,
 				A8EA645D201EC58E00512586 /* Main.storyboard in Resources */,
-				A8EA6466201EC65C00512586 /* pick_bg.png in Resources */,
 				A802F9E41DC9E5CF000053A5 /* LaunchScreen.storyboard in Resources */,
 				A802F9E11DC9E5CF000053A5 /* Assets.xcassets in Resources */,
-				A8EA6467201EC65C00512586 /* pick_bg@2x.png in Resources */,
-				A8EA6465201EC65C00512586 /* pick_bg@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,9 +316,17 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QrCodeScan/Pods-QrCodeScan-resources.sh",
+				"${PODS_ROOT}/QrCodeScan/SRC/image/line.png",
+				"${PODS_ROOT}/QrCodeScan/SRC/image/line@2x.png",
+				"${PODS_ROOT}/QrCodeScan/SRC/image/line@3x.png",
+				"${PODS_ROOT}/QrCodeScan/SRC/image/pick_bg.png",
+				"${PODS_ROOT}/QrCodeScan/SRC/image/pick_bg@2x.png",
+				"${PODS_ROOT}/QrCodeScan/SRC/image/pick_bg@3x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -413,7 +376,6 @@
 				A802F9DC1DC9E5CF000053A5 /* ViewController.m in Sources */,
 				A802FA091DC9EBAB000053A5 /* UIView+IB.m in Sources */,
 				A802F9D91DC9E5CF000053A5 /* AppDelegate.m in Sources */,
-				A8EA645B201EC56500512586 /* CBQrCodeScanVC.m in Sources */,
 				A802F9D61DC9E5CF000053A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

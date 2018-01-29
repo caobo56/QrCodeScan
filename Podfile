@@ -9,7 +9,7 @@ inhibit_all_warnings!
 
 target 'QrCodeScan' do
     pod 'CBImagePicker'
-
+    pod 'QrCodeScan'
 
 end
 
