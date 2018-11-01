@@ -177,9 +177,9 @@
             CIQRCodeFeature*feature = [features objectAtIndex:0];
             NSString*scannedResult = feature.messageString;
             dispatch_async(dispatch_get_main_queue(), ^{
-                if (_comp) {
+                if (self.comp) {
                     __weak typeof(self) weakSelf = self;
-                    _comp(weakSelf,nil,scannedResult);
+                    self.comp(weakSelf,nil,scannedResult);
                 }
             });
         }else{
@@ -305,9 +305,9 @@
 //            NSLog(@"%@",temp);
 //        }
         dispatch_async(dispatch_get_main_queue(), ^{
-            if (_comp) {
+            if (self.comp) {
                 __weak typeof(self) weakSelf = self;
-                _comp(weakSelf,nil,stringValue);
+                self.comp(weakSelf,nil,stringValue);
             }
         });
     } else {

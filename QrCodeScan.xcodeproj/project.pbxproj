@@ -16,6 +16,16 @@
 		A802F9EF1DC9E5CF000053A5 /* QrCodeScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A802F9EE1DC9E5CF000053A5 /* QrCodeScanTests.m */; };
 		A802F9FA1DC9E5CF000053A5 /* QrCodeScanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A802F9F91DC9E5CF000053A5 /* QrCodeScanUITests.m */; };
 		A802FA091DC9EBAB000053A5 /* UIView+IB.m in Sources */ = {isa = PBXBuildFile; fileRef = A802FA081DC9EBAB000053A5 /* UIView+IB.m */; };
+		A8160945218ACBC40023EED3 /* qr_pick_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A816093B218ACBC40023EED3 /* qr_pick_bg@2x.png */; };
+		A8160946218ACBC40023EED3 /* qr_pick_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A816093C218ACBC40023EED3 /* qr_pick_bg@3x.png */; };
+		A8160947218ACBC40023EED3 /* qr_close.png in Resources */ = {isa = PBXBuildFile; fileRef = A816093D218ACBC40023EED3 /* qr_close.png */; };
+		A8160948218ACBC40023EED3 /* qr_line.png in Resources */ = {isa = PBXBuildFile; fileRef = A816093E218ACBC40023EED3 /* qr_line.png */; };
+		A8160949218ACBC40023EED3 /* qr_pick_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A816093F218ACBC40023EED3 /* qr_pick_bg.png */; };
+		A816094A218ACBC40023EED3 /* qr_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8160940218ACBC40023EED3 /* qr_close@2x.png */; };
+		A816094B218ACBC40023EED3 /* qr_line@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8160941218ACBC40023EED3 /* qr_line@3x.png */; };
+		A816094C218ACBC40023EED3 /* qr_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8160942218ACBC40023EED3 /* qr_line@2x.png */; };
+		A816094D218ACBC40023EED3 /* qr_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8160943218ACBC40023EED3 /* qr_close@3x.png */; };
+		A816094E218ACBC40023EED3 /* CBQrCodeScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8160944218ACBC40023EED3 /* CBQrCodeScanVC.m */; };
 		A8EA645D201EC58E00512586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EA645C201EC58E00512586 /* Main.storyboard */; };
 		A8EA646C201EC6A400512586 /* QrCodeScan.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A8EA646B201EC6A400512586 /* QrCodeScan.podspec */; };
 		A8EA646E201EC88A00512586 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EA646D201EC88A00512586 /* AVFoundation.framework */; };
@@ -57,6 +67,17 @@
 		A802F9FB1DC9E5CF000053A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A802FA071DC9EBAB000053A5 /* UIView+IB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IB.h"; sourceTree = "<group>"; };
 		A802FA081DC9EBAB000053A5 /* UIView+IB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IB.m"; sourceTree = "<group>"; };
+		A8160939218ACBC40023EED3 /* CBQrCodeScanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBQrCodeScanVC.h; sourceTree = "<group>"; };
+		A816093B218ACBC40023EED3 /* qr_pick_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_pick_bg@2x.png"; sourceTree = "<group>"; };
+		A816093C218ACBC40023EED3 /* qr_pick_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_pick_bg@3x.png"; sourceTree = "<group>"; };
+		A816093D218ACBC40023EED3 /* qr_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qr_close.png; sourceTree = "<group>"; };
+		A816093E218ACBC40023EED3 /* qr_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qr_line.png; sourceTree = "<group>"; };
+		A816093F218ACBC40023EED3 /* qr_pick_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qr_pick_bg.png; sourceTree = "<group>"; };
+		A8160940218ACBC40023EED3 /* qr_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_close@2x.png"; sourceTree = "<group>"; };
+		A8160941218ACBC40023EED3 /* qr_line@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_line@3x.png"; sourceTree = "<group>"; };
+		A8160942218ACBC40023EED3 /* qr_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_line@2x.png"; sourceTree = "<group>"; };
+		A8160943218ACBC40023EED3 /* qr_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_close@3x.png"; sourceTree = "<group>"; };
+		A8160944218ACBC40023EED3 /* CBQrCodeScanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBQrCodeScanVC.m; sourceTree = "<group>"; };
 		A8EA645C201EC58E00512586 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A8EA646B201EC6A400512586 /* QrCodeScan.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QrCodeScan.podspec; sourceTree = SOURCE_ROOT; };
 		A8EA646D201EC88A00512586 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -116,6 +137,7 @@
 		A802F9D31DC9E5CF000053A5 /* QrCodeScan */ = {
 			isa = PBXGroup;
 			children = (
+				A8160938218ACBC40023EED3 /* SRC */,
 				A8EA646B201EC6A400512586 /* QrCodeScan.podspec */,
 				A802FA071DC9EBAB000053A5 /* UIView+IB.h */,
 				A802FA081DC9EBAB000053A5 /* UIView+IB.m */,
@@ -158,6 +180,32 @@
 			path = QrCodeScanUITests;
 			sourceTree = "<group>";
 		};
+		A8160938218ACBC40023EED3 /* SRC */ = {
+			isa = PBXGroup;
+			children = (
+				A816093A218ACBC40023EED3 /* image */,
+				A8160939218ACBC40023EED3 /* CBQrCodeScanVC.h */,
+				A8160944218ACBC40023EED3 /* CBQrCodeScanVC.m */,
+			);
+			path = SRC;
+			sourceTree = SOURCE_ROOT;
+		};
+		A816093A218ACBC40023EED3 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				A816093B218ACBC40023EED3 /* qr_pick_bg@2x.png */,
+				A816093C218ACBC40023EED3 /* qr_pick_bg@3x.png */,
+				A816093D218ACBC40023EED3 /* qr_close.png */,
+				A816093E218ACBC40023EED3 /* qr_line.png */,
+				A816093F218ACBC40023EED3 /* qr_pick_bg.png */,
+				A8160940218ACBC40023EED3 /* qr_close@2x.png */,
+				A8160941218ACBC40023EED3 /* qr_line@3x.png */,
+				A8160942218ACBC40023EED3 /* qr_line@2x.png */,
+				A8160943218ACBC40023EED3 /* qr_close@3x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		CB6E6209B1ACC23BD61633A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,8 +235,6 @@
 				A802F9CD1DC9E5CF000053A5 /* Sources */,
 				A802F9CE1DC9E5CF000053A5 /* Frameworks */,
 				A802F9CF1DC9E5CF000053A5 /* Resources */,
-				B23750AA6A69CB40D4A0BACA /* [CP] Embed Pods Frameworks */,
-				2C83AFF5D9888DAD4D34B39E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,7 +287,7 @@
 		A802F9C91DC9E5CF000053A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = caobo56;
 				TargetAttributes = {
 					A802F9D01DC9E5CF000053A5 = {
@@ -286,10 +332,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8160948218ACBC40023EED3 /* qr_line.png in Resources */,
+				A816094C218ACBC40023EED3 /* qr_line@2x.png in Resources */,
 				A8EA646C201EC6A400512586 /* QrCodeScan.podspec in Resources */,
+				A8160947218ACBC40023EED3 /* qr_close.png in Resources */,
+				A8160949218ACBC40023EED3 /* qr_pick_bg.png in Resources */,
+				A8160945218ACBC40023EED3 /* qr_pick_bg@2x.png in Resources */,
+				A816094B218ACBC40023EED3 /* qr_line@3x.png in Resources */,
 				A8EA645D201EC58E00512586 /* Main.storyboard in Resources */,
 				A802F9E41DC9E5CF000053A5 /* LaunchScreen.storyboard in Resources */,
+				A8160946218ACBC40023EED3 /* qr_pick_bg@3x.png in Resources */,
+				A816094A218ACBC40023EED3 /* qr_close@2x.png in Resources */,
 				A802F9E11DC9E5CF000053A5 /* Assets.xcassets in Resources */,
+				A816094D218ACBC40023EED3 /* qr_close@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,32 +365,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2C83AFF5D9888DAD4D34B39E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QrCodeScan/Pods-QrCodeScan-resources.sh",
-				"${PODS_ROOT}/QrCodeScan/SRC/image/qr_close.png",
-				"${PODS_ROOT}/QrCodeScan/SRC/image/qr_close@2x.png",
-				"${PODS_ROOT}/QrCodeScan/SRC/image/qr_close@3x.png",
-				"${PODS_ROOT}/QrCodeScan/SRC/image/qr_line.png",
-				"${PODS_ROOT}/QrCodeScan/SRC/image/qr_line@2x.png",
-				"${PODS_ROOT}/QrCodeScan/SRC/image/qr_line@3x.png",
-				"${PODS_ROOT}/QrCodeScan/SRC/image/qr_pick_bg.png",
-				"${PODS_ROOT}/QrCodeScan/SRC/image/qr_pick_bg@2x.png",
-				"${PODS_ROOT}/QrCodeScan/SRC/image/qr_pick_bg@3x.png",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QrCodeScan/Pods-QrCodeScan-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		67D088AC6226B6D177E7D01C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,21 +383,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B23750AA6A69CB40D4A0BACA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QrCodeScan/Pods-QrCodeScan-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -379,6 +393,7 @@
 				A802F9DC1DC9E5CF000053A5 /* ViewController.m in Sources */,
 				A802FA091DC9EBAB000053A5 /* UIView+IB.m in Sources */,
 				A802F9D91DC9E5CF000053A5 /* AppDelegate.m in Sources */,
+				A816094E218ACBC40023EED3 /* CBQrCodeScanVC.m in Sources */,
 				A802F9D61DC9E5CF000053A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,15 +450,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -482,15 +506,24 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
