@@ -52,7 +52,7 @@ typedef void(^CBQrCodeScanCompletion)(CBQrCodeScanVC * vc,NSError* error,NSStrin
 
 @interface CBQrCodeScanVC : UIViewController
 
-@property (weak,nonatomic)CBQrCodeScanCompletion comp;
+@property (copy,nonatomic)CBQrCodeScanCompletion comp;
 //回调的block
 
 
