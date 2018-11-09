@@ -8,7 +8,7 @@
 
 #import "CBQrCodeScanVC.h"
 #import <AVFoundation/AVFoundation.h>
-#import "ABImagePicker.h"
+#import <CBImagePicker.h>
 
 /**
  *  屏幕 高 宽 边界
@@ -19,6 +19,10 @@
 
 #define TOP (SCREEN_HEIGHT-220)/2
 #define LEFT (SCREEN_WIDTH-220)/2
+
+#define IS_IPhoneX_All ([UIScreen mainScreen].bounds.size.height == 812 || [UIScreen mainScreen].bounds.size.height == 896)
+
+#define Height_StatusBar [[UIApplication sharedApplication] statusBarFrame].size.height
 
 #define kScanRect CGRectMake(LEFT, TOP, 220, 220)
 
@@ -116,7 +120,7 @@
     if (!self.navigationController) {
         UIButton * closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         UIImage * closeImg = [UIImage imageNamed:@"qr_close"];
-        [closeBtn setFrame:CGRectMake(30, 20, 44, 44)];
+        [closeBtn setFrame:CGRectMake(10, Height_StatusBar, 44, 44)];
         [closeBtn setImage:closeImg forState:UIControlStateNormal];
         [closeBtn addTarget:self action:@selector(closeBtnAction:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:closeBtn];
@@ -165,9 +169,9 @@
 }
 
 -(void)openAlbum:(UIButton *)sender{
-    ABImagePicker * picker = [ABImagePicker shared];
+    CBImagePicker * picker = [CBImagePicker shared];
     [picker startWithVC:self];
-    [picker setPickerCompletion:^(ABImagePicker * picker, NSError *error, UIImage *image) {
+    [picker setPickerCompletion:^(CBImagePicker * picker, NSError *error, UIImage *image) {
         if (!error) {
             //图片可用
             CIDetector * detector = [CIDetector detectorOfType:CIDetectorTypeQRCode context:nil options:@{CIDetectorAccuracy:CIDetectorAccuracyHigh}];

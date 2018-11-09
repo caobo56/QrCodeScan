@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F5B4A577D86F3CD3348DE0FDCE0A3D1 /* CBImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFA96110069E7608F528035D436AC0F /* CBImagePicker-dummy.m */; };
-		C5A27DE98210B458E61422329C77C941 /* ABImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E34AE17568F1830617BCCFD572F8FA /* ABImagePicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3EC0AA4AB8E81E0220CB41835E48AFA9 /* CBImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A6F4FDE340FAC37B348BE5168360F4 /* CBImagePicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AF445474E96D68235ECBCAF36E28C199 /* CBImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = CA888EFDA52501AABFE15DFF4B61A461 /* CBImagePicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCA011D4DEC6FAF84B99C5521753C31D /* CBImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C691F0E0048370A6E7609CE79B212096 /* CBImagePicker-dummy.m */; };
 		E45279368C0B6DB129C169462B85404C /* Pods-QrCodeScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83317CAE5B3576057C7290B50B95C0A2 /* Pods-QrCodeScan-dummy.m */; };
-		FC7A90092B3DAA626C355DB863D8F242 /* ABImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = AE79ADA3F6505B0E800BAC074F5B6D1F /* ABImagePicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,14 +27,14 @@
 		0EA3D5D60745979828F02DBEB21E3A7E /* libCBImagePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCBImagePicker.a; path = libCBImagePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		120F6D95F1815FC42ACF72A0329A0FD4 /* libPods-QrCodeScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-QrCodeScan.a"; path = "libPods-QrCodeScan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C7C7141447BEE77FE5291BB67CC855 /* Pods-QrCodeScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QrCodeScan.debug.xcconfig"; sourceTree = "<group>"; };
-		73E34AE17568F1830617BCCFD572F8FA /* ABImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABImagePicker.h; path = src/ABImagePicker.h; sourceTree = "<group>"; };
-		7BFA96110069E7608F528035D436AC0F /* CBImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CBImagePicker-dummy.m"; sourceTree = "<group>"; };
+		20A6F4FDE340FAC37B348BE5168360F4 /* CBImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CBImagePicker.m; path = src/CBImagePicker.m; sourceTree = "<group>"; };
+		5C7B5915060E808499E5DBED094530B3 /* CBImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBImagePicker.xcconfig; sourceTree = "<group>"; };
 		83317CAE5B3576057C7290B50B95C0A2 /* Pods-QrCodeScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QrCodeScan-dummy.m"; sourceTree = "<group>"; };
 		93E15DF1AD85BC5DB7664A2BC053A3A2 /* Pods-QrCodeScan-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QrCodeScan-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ADE202CA57D0524B4BD46AE188A5654F /* CBImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBImagePicker.xcconfig; sourceTree = "<group>"; };
-		AE79ADA3F6505B0E800BAC074F5B6D1F /* ABImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABImagePicker.m; path = src/ABImagePicker.m; sourceTree = "<group>"; };
+		A4B686026D7F77127164E82B992BB09C /* CBImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBImagePicker-prefix.pch"; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C5E9C44E80B9ADDDE5BD154CBBB17B6D /* CBImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		C691F0E0048370A6E7609CE79B212096 /* CBImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CBImagePicker-dummy.m"; sourceTree = "<group>"; };
+		CA888EFDA52501AABFE15DFF4B61A461 /* CBImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBImagePicker.h; path = src/CBImagePicker.h; sourceTree = "<group>"; };
 		E7AFEBA48BB61C198B709A20EFC26CE8 /* Pods-QrCodeScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QrCodeScan.release.xcconfig"; sourceTree = "<group>"; };
 		EAC78F65D969AD10F898D946C36D6713 /* Pods-QrCodeScan-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QrCodeScan-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,22 +57,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		013F7125C1FDFEE653844AEAA5F573B1 /* CBImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				CA888EFDA52501AABFE15DFF4B61A461 /* CBImagePicker.h */,
+				20A6F4FDE340FAC37B348BE5168360F4 /* CBImagePicker.m */,
+				E494B319EF61D76FE9426250D0AA9488 /* Support Files */,
+			);
+			name = CBImagePicker;
+			path = CBImagePicker;
+			sourceTree = "<group>";
+		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		31F7645C9F4C3F2EACEB31AC0BB9DEEA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ADE202CA57D0524B4BD46AE188A5654F /* CBImagePicker.xcconfig */,
-				7BFA96110069E7608F528035D436AC0F /* CBImagePicker-dummy.m */,
-				C5E9C44E80B9ADDDE5BD154CBBB17B6D /* CBImagePicker-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CBImagePicker";
 			sourceTree = "<group>";
 		};
 		6E50AF17BB99A87E8BCAD83EC64A4DEB /* Targets Support Files */ = {
@@ -81,17 +81,6 @@
 				B5E2D8936DFF62427896870F4E841369 /* Pods-QrCodeScan */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		738D55DD194A227467A573197A4D7DB7 /* CBImagePicker */ = {
-			isa = PBXGroup;
-			children = (
-				73E34AE17568F1830617BCCFD572F8FA /* ABImagePicker.h */,
-				AE79ADA3F6505B0E800BAC074F5B6D1F /* ABImagePicker.m */,
-				31F7645C9F4C3F2EACEB31AC0BB9DEEA /* Support Files */,
-			);
-			name = CBImagePicker;
-			path = CBImagePicker;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -130,26 +119,37 @@
 		CCFC14E364482178D396E3A49B3B19B7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				738D55DD194A227467A573197A4D7DB7 /* CBImagePicker */,
+				013F7125C1FDFEE653844AEAA5F573B1 /* CBImagePicker */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E494B319EF61D76FE9426250D0AA9488 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C7B5915060E808499E5DBED094530B3 /* CBImagePicker.xcconfig */,
+				C691F0E0048370A6E7609CE79B212096 /* CBImagePicker-dummy.m */,
+				A4B686026D7F77127164E82B992BB09C /* CBImagePicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CBImagePicker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28322288D6659107DEC56CE7A00959CC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5A27DE98210B458E61422329C77C941 /* ABImagePicker.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4F4F72662DE09D5D9C5842F26749DF01 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8186222E27A0A19D9AFB6BA467D53337 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF445474E96D68235ECBCAF36E28C199 /* CBImagePicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,8 +178,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9D5D25FF737195BFA4B89801D945848 /* Build configuration list for PBXNativeTarget "CBImagePicker" */;
 			buildPhases = (
-				28322288D6659107DEC56CE7A00959CC /* Headers */,
-				9026FFE960321958938B0DED7C3E47A8 /* Sources */,
+				8186222E27A0A19D9AFB6BA467D53337 /* Headers */,
+				DE6DACF59A26830C7D2932357CDF5188 /* Sources */,
 				DF466910B4EE2AAC09CA6DCB98E7D686 /* Frameworks */,
 			);
 			buildRules = (
@@ -219,20 +219,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9026FFE960321958938B0DED7C3E47A8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC7A90092B3DAA626C355DB863D8F242 /* ABImagePicker.m in Sources */,
-				8F5B4A577D86F3CD3348DE0FDCE0A3D1 /* CBImagePicker-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D7A2C289F036EDFAF10E2333877E99D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E45279368C0B6DB129C169462B85404C /* Pods-QrCodeScan-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE6DACF59A26830C7D2932357CDF5188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA011D4DEC6FAF84B99C5521753C31D /* CBImagePicker-dummy.m in Sources */,
+				3EC0AA4AB8E81E0220CB41835E48AFA9 /* CBImagePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +250,7 @@
 /* Begin XCBuildConfiguration section */
 		25309B585B7BF60BF4DF5EC705E930F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADE202CA57D0524B4BD46AE188A5654F /* CBImagePicker.xcconfig */;
+			baseConfigurationReference = 5C7B5915060E808499E5DBED094530B3 /* CBImagePicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -273,7 +273,7 @@
 		};
 		3DE725D1ABC9C44CC021A2DF824680B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADE202CA57D0524B4BD46AE188A5654F /* CBImagePicker.xcconfig */;
+			baseConfigurationReference = 5C7B5915060E808499E5DBED094530B3 /* CBImagePicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

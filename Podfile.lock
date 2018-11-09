@@ -1,5 +1,5 @@
 PODS:
-  - CBImagePicker (0.9.8)
+  - CBImagePicker (0.9.9)
 
 DEPENDENCIES:
   - CBImagePicker
@@ -9,8 +9,8 @@ SPEC REPOS:
     - CBImagePicker
 
 SPEC CHECKSUMS:
-  CBImagePicker: 44ce35601ea6cda48abf7f312c2f8f92e895e083
+  CBImagePicker: c5d844bc66e78f3de4790602022226c58fbc4b10
 
-PODFILE CHECKSUM: 45c2aefedc1e9de2bd5e0a2d8efc36896e637251
+PODFILE CHECKSUM: aa2c3658e636237c2fa5cc4f5d70a4990d131bfa
 
 COCOAPODS: 1.6.0.beta.2
